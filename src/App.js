@@ -1,8 +1,8 @@
 import React from "react";
-import { Navbar } from "./components";
+import { Brand, Navbar } from "./components";
 
 import "./App.css";
-import { Header } from "./containers";
+import { Header, WhatGPT3 } from "./containers";
 
 function App() {
   return (
@@ -11,6 +11,8 @@ function App() {
         <Navbar />
         <Header />
       </div>
+      <Brand />
+      <WhatGPT3 />
     </>
   );
 }
