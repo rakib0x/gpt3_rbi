@@ -1,12 +1,12 @@
 import React from "react";
-import { Brand, Navbar } from "./components";
-
+import { Brand, Navbar, CTA, GTTBtn } from "./components";
+import { Header, WhatGPT3, Features, Possibility, Blog, Footer } from "./containers";
 import "./App.css";
-import { Header, WhatGPT3, Features, Possibility } from "./containers";
 
 function App() {
   return (
     <>
+      <GTTBtn />
       <div className="gradient__bg">
         <Navbar />
         <Header />
@@ -15,6 +15,9 @@ function App() {
       <WhatGPT3 />
       <Features />
       <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
     </>
   );
 }
